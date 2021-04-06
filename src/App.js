@@ -17,7 +17,15 @@ function App() {
     <div className="App">
         <Trainer/>
         <Trainer/>
+        <Provider data={data}/>
         <Trainer/>
+        <Trainer/>
+        <Trainer/>
+        <Trainer/>
+        <Trainer/>
+        <Trainer/>
+
+        
         <Provider data={data}/>
         
     </div>

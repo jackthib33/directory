@@ -16,31 +16,16 @@ const styles = ({ breakpoints, palette, spacing, transitions }) => {
             justifyContent:'center',
             flexFlow: 'row wrap',
         },
-        trainerBoxTwo: {
-            height: 'auto',
-            border:'none',
-            borderRadius: "1rem",
-            width: "500px",
-            margin: "1rem",
-            padding: "10px",
-            display: "inline-block",
-            boxShadow: "5px  10px 20px #888888",
-            [breakpoints.down('sm')]: {
-                height: 'auto',
-                border:'none',
-                textAlign:'center',
-                borderRadius: '1rem',
-                width: '40%',
-                margin: '1rem',
-                padding: '1rem',
-                display: 'inline-block',
-                boxShadow: '5px 10px 20px #888888',
-            },
-            [breakpoints.down('xs')]: {
-                height: 'auto',
-                width: '90%',
+         trainerBoxTwo: {
+            textAlign:'center',
+            border: 'none',
+            borderRadius: '1rem',
+            maxWidth: '300px',
+            margin: '1rem',
+            padding: '1rem',
+            display: 'inline-block',
+            boxShadow: '5px 10px 20px #888888',
                
-            },
         },
         ProviderBox:{
             textAlign:'center',
@@ -77,7 +62,8 @@ const styles = ({ breakpoints, palette, spacing, transitions }) => {
             maxWidth: '80%',
         },
         trainerPic: {
-            float: 'left',
+            
+            float: 'center',
             maxWidth:'150px',
             borderRadius:'100px',
             margin: '10px',
@@ -101,8 +87,8 @@ const styles = ({ breakpoints, palette, spacing, transitions }) => {
             backgroundColor: '#cc0000',
             color: 'white',
             border: 'none',
-            float: 'right',
-            marginTop: '42px',
+            float: 'center',
+            marginTop: '0px',
             [breakpoints.down('sm')]: {
                float: 'none',
                marginTop: '0px',
@@ -114,8 +100,6 @@ const styles = ({ breakpoints, palette, spacing, transitions }) => {
             backgroundColor: '#cc0000',
             color: 'white',
             border: 'none',
-           
-
         },
         title: {
             fontSize: '1rem',
@@ -124,9 +108,6 @@ const styles = ({ breakpoints, palette, spacing, transitions }) => {
             maxWidth: '80%',
 
         },
-
-       
-        
     };
 };
 export default styles;

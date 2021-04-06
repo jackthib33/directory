@@ -16,7 +16,7 @@ function Trainer(props) {
 <div className={classes.trainerBoxTwo}>
 
   
-   <div className={classes.inline}>
+   {/* <div className={classes.inline}> */}
     <div>
         <img src={logo} className={classes.trainerPic}/>
    
@@ -25,7 +25,7 @@ function Trainer(props) {
         <h1 className={classes.title}>Jack Thibodeau</h1>
         <p>Stomp 360 frozen chicken heads chain suck. Grab taco mitt shreddin bail steed stoked, park 360 free ride. Butter grunt moguls road rash schwag Bike Ski endo epic brain bucket stoked face shots bomb hole titanium presta.</p>
     </div>
-    </div>
+    {/* </div> */}
     <div className={classes.badgeBox}>
         <img src={badge} className={classes.badges}></img>
         <img src={badge} className={classes.badges}></img>
